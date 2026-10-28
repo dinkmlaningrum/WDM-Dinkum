@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dina Kumala Ningrum | Mahasiswa Bisnis Digital - Jakarta Business School</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Website CV dan Portofolio Resmi Dina Kumala Ningrum - Mahasiswa Bisnis Digital di Jakarta Business School & President of Student Union. Event Strategist, Content Creator, dan Student Leader.">
+  <meta name="keywords" content="Dina Kumala, Dina Kumala Ningrum, Mahasiswa Bisnis Digital, Jakarta Business School, Student Union President, Digital Business, CV, Portfolio, Student Leader">
+  <meta name="author" content="Dina Kumala Ningrum">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dina Kumala Ningrum | Mahasiswa Bisnis Digital - Jakarta Business School">
+  <meta property="og:description" content="Website CV dan Portofolio Resmi Dina Kumala Ningrum. Mahasiswa Bisnis Digital & President of Student Union di Jakarta Business School.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231e3a8a'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='48' font-weight='bold' fill='%23fbbf24'>DK</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Background Decorative Ambient Glows -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-wrapper" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Beranda Dina Kumala">
+        <div class="logo-badge">DK</div>
+        <div class="brand-info">
+          <span class="brand-name">Dina Kumala</span>
+          <span class="brand-sub">Mahasiswa Bisnis Digital • JBS</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" id="navMenu" aria-label="Navigasi Utama">
+        <a href="#hero" class="nav-link active" data-i18n="nav_home">Beranda</a>
+        <a href="#about" class="nav-link" data-i18n="nav_about">Tentang</a>
+        <a href="#experience" class="nav-link" data-i18n="nav_leadership">Kepemimpinan</a>
+        <a href="#projects" class="nav-link" data-i18n="nav_projects">Proyek & Prestasi</a>
+        <a href="#gallery" class="nav-link" data-i18n="nav_gallery">Galeri Kegiatan</a>
+        <a href="#education" class="nav-link" data-i18n="nav_education">Pendidikan</a>
+        <a href="#skills" class="nav-link" data-i18n="nav_skills">Keahlian</a>
+        <a href="#contact" class="nav-link" data-i18n="nav_contact">Kontak</a>
+      </nav>
+
+      <!-- Action Utilities: Theme Toggle, Lang Switcher & CTA -->
+      <div class="nav-actions">
+        <!-- Language Switcher -->
+        <button class="icon-btn" id="langToggleBtn" title="Ganti Bahasa / Switch Language" aria-label="Ganti Bahasa">
+          <span class="lang-tag" id="currentLangLabel">ID</span>
+          <i class="fa-solid fa-globe"></i>
+        </button>
+
+        <!-- Dark/Light Theme Switcher -->
+        <button class="icon-btn" id="themeToggleBtn" title="Ganti Tema Gelap/Terang" aria-label="Ganti Mode Tampilan">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+
+        <!-- Direct PDF Download Link -->
+        <a href="CV DINA KUMALA.pdf" download="CV DINA KUMALA.pdf" class="btn btn-primary btn-sm nav-cv-btn" id="btnDownloadNav">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span data-i18n="btn_download_cv">Unduh CV</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Buka Menu Navigasi" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <!-- Left Column: Intro & Headline -->
+        <div class="hero-content">
+          <!-- Student Badge -->
+          <div class="badge-pill presidential-badge">
+            <span class="pulse-dot"></span>
+            <i class="fa-solid fa-graduation-cap gold-accent"></i>
+            <span data-i18n="hero_badge">Mahasiswa Bisnis Digital • Jakarta Business School</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="greeting" data-i18n="hero_greeting">Halo, Saya</span>
+            <span class="name-gradient">Dina Kumala Ningrum</span>
+          </h1>
+
+          <!-- Dynamic Role Typing Subtitle -->
+          <div class="hero-subtitle-box">
+            <span class="subtitle-static" data-i18n="hero_subtitle_static">Fokus Bidang:</span>
+            <span class="typing-text" id="typingText">Mahasiswi Bisnis Digital</span>
+            <span class="cursor">&nbsp;</span>
+          </div>
+
+          <p class="hero-description" data-i18n="hero_bio">
+            Mahasiswi Bisnis Digital yang berdedikasi tinggi dengan pengalaman praktis dalam koordinasi acara, strategi konten digital, dan pemberdayaan komunitas generasi muda. Terampil memimpin inisiatif kampus serta membangun kolaborasi eksternal strategis untuk mendorong dampak sosial positif dan pengembangan potensi mahasiswa.
+          </p>
+
+          <!-- Quick Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#experience" class="btn btn-primary">
+              <i class="fa-solid fa-compass"></i>
+              <span data-i18n="hero_cta_explore">Eksplorasi Profil</span>
+            </a>
+            <a href="CV DINA KUMALA.pdf" target="_blank" class="btn btn-secondary">
+              <i class="fa-regular fa-file-pdf"></i>
+              <span data-i18n="hero_cta_preview_pdf">Lihat Dokumen PDF</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-regular fa-envelope"></i>
+              <span data-i18n="hero_cta_contact">Hubungi Saya</span>
+            </a>
+          </div>
+
+          <!-- Social Quick Links -->
+          <div class="hero-social-links">
+            <span class="social-label" data-i18n="hero_connect_label">Terhubung:</span>
+            <a href="mailto:dinkmlaningrum@gmail.com" class="social-chip" title="Kirim Email">
+              <i class="fa-solid fa-envelope"></i>
+              <span>dinkmlaningrum@gmail.com</span>
+            </a>
+            <a href="https://wa.me/6285819303998" target="_blank" rel="noopener noreferrer" class="social-chip" title="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>+62-858-1930-3998</span>
+            </a>
+            <a href="https://instagram.com/dinkmla" target="_blank" rel="noopener noreferrer" class="social-chip" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+              <span>@dinkmla</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Column: Interactive Profile Card -->
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="card-glow"></div>
+            
+            <!-- Profile Avatar / Graphic Representation -->
+            <div class="avatar-wrapper">
+              <div class="avatar-ring"></div>
+              <div class="avatar-inner">
+                <!-- High-res Monogram Visual Badge -->
+                <div class="avatar-art">
+                  <div class="avatar-crown"><i class="fa-solid fa-crown"></i></div>
+                  <div class="avatar-initials">DK</div>
+                  <div class="avatar-subtext">Digital Business</div>
+                </div>
+              </div>
+              <div class="status-indicator" title="Tersedia untuk Kolaborasi dan Dialog">
+                <span class="live-dot"></span>
+                <span data-i18n="status_active">Mahasiswa Aktif & Pemimpin BEM</span>
+              </div>
+            </div>
+
+            <!-- Profile Card Details -->
+            <div class="profile-card-content">
+              <h2 class="profile-card-name">Dina Kumala Ningrum</h2>
+              <p class="profile-card-role" data-i18n="card_role">Mahasiswa S1 Bisnis Digital</p>
+              <div class="institution-badge">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Jakarta Business School</span>
+              </div>
+              <div class="sub-role-pill">
+                <i class="fa-solid fa-crown"></i>
+                <span data-i18n="card_sub_role">President of Student Union</span>
+              </div>
+
+              <div class="card-divider"></div>
+
+              <!-- Key Quick Highlights in Hero Card -->
+              <div class="card-features">
+                <div class="feature-item">
+                  <i class="fa-solid fa-chart-line"></i>
+                  <div>
+                    <span class="feature-title" data-i18n="stat_dept_title">Program Studi</span>
+                    <span class="feature-value" data-i18n="stat_dept_val">S1 Bisnis Digital (2023)</span>
+                  </div>
+                </div>
+                <div class="feature-item">
+                  <i class="fa-solid fa-crown"></i>
+                  <div>
+                    <span class="feature-title" data-i18n="stat_tenure_title">Amanah Kampus</span>
+                    <span class="feature-value" data-i18n="stat_tenure_val">President of Student Union</span>
+                  </div>
+                </div>
+                <div class="feature-item">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <div>
+                    <span class="feature-title" data-i18n="stat_loc_title">Lokasi</span>
+                    <span class="feature-value">Jakarta, Indonesia</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Quick action inside card -->
+              <a href="CV DINA KUMALA.pdf" download class="btn btn-primary btn-block card-download-btn">
+                <i class="fa-solid fa-download"></i>
+                <span data-i18n="btn_download_cv_full">Unduh Resume Lengkap (PDF)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Statistics Bar -->
+      <div class="container hero-stats-container">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fa-solid fa-users"></i></div>
+            <div class="stat-info">
+              <span class="stat-number" data-target="100" data-suffix="%">0%</span>
+              <span class="stat-label" data-i18n="stat_label_dedication">Dedikasi Kemahasiswaan</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fa-solid fa-sitemap"></i></div>
+            <div class="stat-info">
+              <span class="stat-number" data-target="2" data-suffix="+ Jabatan">0</span>
+              <span class="stat-label" data-i18n="stat_label_leadership">Pengalaman Organisasi</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fa-solid fa-calendar-days"></i></div>
+            <div class="stat-info">
+              <span class="stat-number" data-target="5" data-suffix="+ Program">0</span>
+              <span class="stat-label" data-i18n="stat_label_events">Program & Event Terlaksana</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fa-solid fa-certificate"></i></div>
+            <div class="stat-info">
+              <span class="stat-number" data-target="4" data-suffix=" Sertifikasi">0</span>
+              <span class="stat-label" data-i18n="stat_label_cert">Pelatihan & Konferensi Global</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="about_tag">Tentang Saya</span>
+          <h2 class="section-title" data-i18n="about_title">Kepemimpinan Transformatif & Passion Bisnis Digital</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card-main">
+            <h3 class="about-heading" data-i18n="about_heading">Profil Singkat</h3>
+            <p class="about-text" data-i18n="about_p1">
+              Sebagai mahasiswa Program Sarjana (S1) Bisnis Digital di <strong>Jakarta Business School</strong> yang tengah menempuh pendidikan sejak September 2023, saya mengintegrasikan wawasan analitis bisnis dengan keterampilan kepemimpinan strategis.
+            </p>
+            <p class="about-text" data-i18n="about_p2">
+              Dalam amanah sebagai <strong>President of Student Union</strong>, fokus utama saya adalah membangun ekosistem kampus yang inklusif, progresif, dan sinergis. Saya memiliki keahlian teruji dalam mengoordinasikan berbagai divisi kerja, merancang agenda berbasis dampak nyata, mengelola kemitraan lintas organisasi, serta menjembatani aspirasi mahasiswa dengan pemangku kebijakan kampus.
+            </p>
+            <p class="about-text" data-i18n="about_p3">
+              Kombinasi latar belakang <em>digital marketing</em>, manajemen acara berskala besar, komunikasi publik, serta keterlibatan forum internasional seperti <em>Global Student Summit di Malaysia</em> membentuk karakter kepemimpinan adaptif dan berorientasi solusi di era transformasi digital.
+            </p>
+
+            <div class="pillars-grid">
+              <div class="pillar-box">
+                <div class="pillar-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                <h4 data-i18n="pillar_1_title">Inovasi Digital</h4>
+                <p data-i18n="pillar_1_desc">Memanfaatkan teknologi dan strategi konten kreatif dalam pemberdayaan civitas akademika.</p>
+              </div>
+              <div class="pillar-box">
+                <div class="pillar-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                <h4 data-i18n="pillar_2_title">Kepemimpinan Empatik</h4>
+                <p data-i18n="pillar_2_desc">Mengedepankan komunikasi terbuka, transparansi kepengurusan, dan aspirasi inklusif.</p>
+              </div>
+              <div class="pillar-box">
+                <div class="pillar-icon"><i class="fa-solid fa-bullseye"></i></div>
+                <h4 data-i18n="pillar_3_title">Dampak Nyata</h4>
+                <p data-i18n="pillar_3_desc">Setiap agenda dan program kerja dirancang memiliki parameter keberhasilan yang terukur.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Info Aside -->
+          <div class="about-aside">
+            <div class="info-card">
+              <h3 class="info-card-title" data-i18n="info_card_title">Informasi Pribadi & Kontak</h3>
+              
+              <ul class="info-list">
+                <li>
+                  <span class="info-label"><i class="fa-solid fa-user"></i> <span data-i18n="info_name">Nama Lengkap</span></span>
+                  <span class="info-value">Dina Kumala Ningrum</span>
+                </li>
+                <li>
+                  <span class="info-label"><i class="fa-solid fa-graduation-cap"></i> <span data-i18n="info_role">Status & Posisi</span></span>
+                  <span class="info-value" data-i18n="info_role_val">Mahasiswa S1 Bisnis Digital & President of Student Union</span>
+                </li>
+                <li>
+                  <span class="info-label"><i class="fa-solid fa-building-columns"></i> <span data-i18n="info_campus">Institusi</span></span>
+                  <span class="info-value">Jakarta Business School</span>
+                </li>
+                <li>
+                  <span class="info-label"><i class="fa-solid fa-envelope"></i> <span data-i18n="info_email">Email</span></span>
+                  <a href="mailto:dinkmlaningrum@gmail.com" class="info-value link">dinkmlaningrum@gmail.com</a>
+                </li>
+                <li>
+                  <span class="info-label"><i class="fa-solid fa-phone"></i> <span data-i18n="info_phone">No. Telepon / WA</span></span>
+                  <a href="https://wa.me/6285819303998" class="info-value link">+62-858-1930-3998</a>
+                </li>
+                <li>
+                  <span class="info-label"><i class="fa-brands fa-instagram"></i> <span data-i18n="info_social">Instagram</span></span>
+                  <a href="https://instagram.com/dinkmla" target="_blank" rel="noopener noreferrer" class="info-value link">@dinkmla</a>
+                </li>
+                <li>
+                  <span class="info-label"><i class="fa-solid fa-language"></i> <span data-i18n="info_lang">Bahasa</span></span>
+                  <span class="info-value">Indonesia (Native), English (Intermediate)</span>
+                </li>
+              </ul>
+
+              <div class="info-actions">
+                <button class="btn btn-secondary btn-block" onclick="copyContactInfo('dinkmlaningrum@gmail.com', 'Email berhasil disalin!')">
+                  <i class="fa-regular fa-copy"></i>
+                  <span data-i18n="btn_copy_email">Salin Alamat Email</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEADERSHIP & ORGANIZATIONAL EXPERIENCE SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="exp_tag">Rekam Jejak Kepemimpinan</span>
+          <h2 class="section-title" data-i18n="exp_title">Pengalaman Organisasi & Manajerial</h2>
+          <p class="section-subtitle" data-i18n="exp_subtitle">
+            Perjalanan memimpin organisasi mahasiswa, menggerakkan tim lintas divisi, dan menciptakan program kerja berorientasi pemberdayaan di Jakarta Business School.
+          </p>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item 1: President -->
+          <div class="timeline-item featured">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-crown"></i>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="role-badge current" data-i18n="badge_current_role">Amanah Berjalan • Periode Aktif</span>
+                  <h3 class="role-title">President (Ketua BEM)</h3>
+                  <h4 class="organization-name">Jakarta Business School Student Union</h4>
+                </div>
+                <div class="timeline-period">
+                  <i class="fa-regular fa-calendar"></i>
+                  <span data-i18n="period_pres">Mei 2025 – Sekarang</span>
+                </div>
+              </div>
+
+              <p class="timeline-desc" data-i18n="pres_desc">
+                Memimpin seluruh badan eksekutif mahasiswa di Jakarta Business School dalam menyusun arah gerak strategis, mewadahi aspirasi mahasiswa, serta memperkuat sinergi antara mahasiswa, akademisi, dan stakeholder eksternal.
+              </p>
+
+              <div class="timeline-highlights">
+                <h5 data-i18n="key_responsibilities">Tanggung Jawab & Inisiatif Kunci:</h5>
+                <ul>
+                  <li data-i18n="pres_point_1">
+                    <strong>Arah Strategis & Kepemimpinan Eksekutif:</strong> Menahkodai kepengurusan Student Union dengan prinsip transparansi, akuntabilitas, dan kolaboratif.
+                  </li>
+                  <li data-i18n="pres_point_2">
+                    <strong>Pemberdayaan Komunitas Mahasiswa:</strong> Menginisiasi program-program pengembangan karir, kewirausahaan digital, dan kesehatan mental mahasiswa.
+                  </li>
+                  <li data-i18n="pres_point_3">
+                    <strong>Advokasi & Diplomasi Kampus:</strong> Berfungsi sebagai jembatan komunikasi formal antara aspirasi seluruh angkatan mahasiswa dengan pimpinan rektorat/fakultas.
+                  </li>
+                  <li data-i18n="pres_point_4">
+                    <strong>Kemitraan Strategis Eksternal:</strong> Membuka ruang kolaborasi dengan organisasi kepemudaan, komunitas bisnis, dan asosiasi mahasiswa antar-kampus.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tag-cloud">
+                <span class="skill-tag">Strategic Leadership</span>
+                <span class="skill-tag">Stakeholder Advocacy</span>
+                <span class="skill-tag">Team Governance</span>
+                <span class="skill-tag">Youth Engagement</span>
+                <span class="skill-tag">Program Budgeting</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: Staff Social & Community Division -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-hands-holding-child"></i>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="role-badge past" data-i18n="badge_past_role">Pengalaman Organisasi</span>
+                  <h3 class="role-title">Staff – Social and Community Division</h3>
+                  <h4 class="organization-name">Jakarta Business School Student Council</h4>
+                </div>
+                <div class="timeline-period">
+                  <i class="fa-regular fa-calendar"></i>
+                  <span data-i18n="period_staff">Februari 2024 – Mei 2025</span>
+                </div>
+              </div>
+
+              <p class="timeline-desc" data-i18n="staff_desc">
+                Bertanggung jawab dalam merancang serta mengeksekusi program-program kepedulian sosial, keakraban mahasiswa, dan kolaborasi pengabdian masyarakat guna menumbuhkan solidaritas tinggi di lingkungan kampus.
+              </p>
+
+              <div class="timeline-highlights">
+                <h5 data-i18n="key_achievements">Kontribusi Utama:</h5>
+                <ul>
+                  <li data-i18n="staff_point_1">
+                    Menggalang kegiatan pengabdian masyarakat dan program kepedulian lingkungan yang melibatkan mahasiswa aktif JBS.
+                  </li>
+                  <li data-i18n="staff_point_2">
+                    Memfasilitasi integrasi sosial bagi mahasiswa baru melalui inisiatif interaktif dan komunikasi multikanal.
+                  </li>
+                  <li data-i18n="staff_point_3">
+                    Bekerja sama erat dengan divisi internal untuk memastikan setiap program terlaksana sesuai tenggat waktu dan target partisipasi.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tag-cloud">
+                <span class="skill-tag">Community Outreach</span>
+                <span class="skill-tag">Social Impact</span>
+                <span class="skill-tag">Cross-divisional Coordination</span>
+                <span class="skill-tag">Student Welfare</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS & ACHIEVEMENTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="proj_tag">Portofolio & Pencapaian</span>
+          <h2 class="section-title" data-i18n="proj_title">Proyek Unggulan & Pengalaman Acara</h2>
+          <p class="section-subtitle" data-i18n="proj_subtitle">
+            Bukti nyata kepemimpinan lapangan dalam memanajemeni acara skala kampus dan produksi acara kreatif kolaboratif.
+          </p>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Makrab -->
+          <div class="project-card glass-card">
+            <div class="project-card-top">
+              <div class="project-icon-box">
+                <i class="fa-solid fa-campground"></i>
+              </div>
+              <div class="project-date">28–29 Nov 2024</div>
+            </div>
+            
+            <div class="project-badge" data-i18n="makrab_badge">Ketua Panitia / Project Lead</div>
+            <h3 class="project-title" data-i18n="makrab_title">Student Welcoming Gathering – “Malam Keakraban” (Makrab)</h3>
+            <h4 class="project-client">Jakarta Business School Student Council</h4>
+
+            <p class="project-summary" data-i18n="makrab_desc">
+              Memimpin seluruh komite kepanitiaan dalam menyelenggarakan kegiatan penyambutan dan keakraban mahasiswa baru Jakarta Business School.
+            </p>
+
+            <div class="project-details">
+              <ul>
+                <li data-i18n="makrab_p1">Menahkodai koordinasi terpadu antar divisi: Acara, Logistik, Konsumsi, Medis, dan Keamanan.</li>
+                <li data-i18n="makrab_p2">Mengelola manajemen risiko, alur anggaran operasional, serta kelancaran rundown selama 2 hari 1 malam.</li>
+                <li data-i18n="makrab_p3">Mencapai tingkat kepuasan peserta yang luar biasa dan membangun ikatan solid lintas angkatan.</li>
+              </ul>
+            </div>
+
+            <div class="project-tags">
+              <span>Event Leadership</span>
+              <span>Crisis Management</span>
+              <span>Budgeting</span>
+              <span>Team Coordination</span>
+            </div>
+          </div>
+
+          <!-- Project 2: Mini Concert & 17 Agustus -->
+          <div class="project-card glass-card">
+            <div class="project-card-top">
+              <div class="project-icon-box accent">
+                <i class="fa-solid fa-guitar"></i>
+              </div>
+              <div class="project-date">Agustus 2024</div>
+            </div>
+
+            <div class="project-badge accent" data-i18n="concert_badge">Scriptwriter & Event Coordinator</div>
+            <h3 class="project-title" data-i18n="concert_title">Mini Concert & Perayaan 17 Agustus</h3>
+            <h4 class="project-client">Pigijo Representative & Youth Culture</h4>
+
+            <p class="project-summary" data-i18n="concert_desc">
+              Bertindak sebagai penulis naskah (scriptwriter) dan koordinator konser akustik mini dalam rangka peringatan HUT Republik Indonesia, mengangkat tema seni dan pelestarian budaya lokal.
+            </p>
+
+            <div class="project-details">
+              <ul>
+                <li data-i18n="concert_p1">Menginisiasi kolaborasi resmi dengan komunitas musik lokal ternama: <em>Taman Suropati Chamber</em>.</li>
+                <li data-i18n="concert_p2">Menyusun konsep narasi naskah pertunjukan, mengawasi alur panggung, dan interaksi audiens.</li>
+                <li data-i18n="concert_p3">Mendorong keterlibatan pemuda dalam mengapresiasi musik seni akustik serta pelestarian budaya bangsa.</li>
+              </ul>
+            </div>
+
+            <div class="project-tags">
+              <span>Creative Scriptwriting</span>
+              <span>Community Partnership</span>
+              <span>Acoustic Production</span>
+              <span>Cultural Engagement</span>
+            </div>
+          </div>
+
+          <!-- Project 3: International Delegation -->
+          <div class="project-card glass-card">
+            <div class="project-card-top">
+              <div class="project-icon-box international">
+                <i class="fa-solid fa-earth-asia"></i>
+              </div>
+              <div class="project-date">Nov–Des 2024</div>
+            </div>
+
+            <div class="project-badge international" data-i18n="summit_badge">International Delegate</div>
+            <h3 class="project-title" data-i18n="summit_title">Global Student Summit 3.0</h3>
+            <h4 class="project-client">Universiti Putra Malaysia (UPM)</h4>
+
+            <p class="project-summary" data-i18n="summit_desc">
+              Terpilih sebagai delegasi dalam forum konferensi mahasiswa internasional di Malaysia, mendiskusikan kepemimpinan pemuda, inovasi bisnis, dan kolaborasi kawasan regional ASEAN.
+            </p>
+
+            <div class="project-details">
+              <ul>
+                <li data-i18n="summit_p1">Mewakili suara mahasiswa dalam diskusi panel kepemimpinan dan pembangunan berkelanjutan.</li>
+                <li data-i18n="summit_p2">Membangun jejaring koneksi akademik dengan mahasiswa dari berbagai universitas di Asia Tenggara.</li>
+                <li data-i18n="summit_p3">Memperluas perspektif global terkait dinamika bisnis digital regional.</li>
+              </ul>
+            </div>
+
+            <div class="project-tags">
+              <span>Global Summit</span>
+              <span>Cross-cultural Dialogue</span>
+              <span>Diplomacy</span>
+              <span>Youth Leadership</span>
+            </div>
+          </div>
+
+          <!-- Project 4: My Digital Academy Bank Mandiri -->
+          <div class="project-card glass-card">
+            <div class="project-card-top">
+              <div class="project-icon-box mandiri">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div class="project-date">Februari 2025</div>
+            </div>
+
+            <div class="project-badge mandiri" data-i18n="mda_badge">Selected Scholar / Participant</div>
+            <h3 class="project-title" data-i18n="mda_title">Thriving in the Digital Age : Mental Health & Career Growth</h3>
+            <h4 class="project-client">My Digital Academy by Mandiri</h4>
+
+            <p class="project-summary" data-i18n="mda_desc">
+              Mengikuti program intensif pengembangan kapabilitas kepemimpinan digital yang diselenggarakan oleh Bank Mandiri, menyeimbangkan akselerasi karir dengan ketahanan psikologis mental.
+            </p>
+
+            <div class="project-details">
+              <ul>
+                <li data-i18n="mda_p1">Memperdalam strategi resiliensi dan <em>work-life integration</em> bagi profesional muda di era serba cepat.</li>
+                <li data-i18n="mda_p2">Mempelajari metodologi perencanaan karir berbasis kompetensi industri perbankan & teknologi terkini.</li>
+              </ul>
+            </div>
+
+            <div class="project-tags">
+              <span>Career Readiness</span>
+              <span>Mental Resilience</span>
+              <span>Digital Competence</span>
+              <span>Leadership Mindset</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACTIVITY GALLERY SECTION -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="gallery_tag">Dokumentasi Visual</span>
+          <h2 class="section-title" data-i18n="gallery_title">Galeri Kegiatan & Rekam Jejak</h2>
+          <p class="section-subtitle" data-i18n="gallery_subtitle">
+            Kumpulan momen penting kepemimpinan, kepanitiaan acara berskala kampus, delegasi internasional, dan inisiatif pengabdian mahasiswa.
+          </p>
+          <div class="header-line"></div>
+        </div>
+
+        <!-- Gallery Filter Tabs -->
+        <div class="gallery-filters" role="tablist" aria-label="Kategori Galeri">
+          <button class="gallery-filter-btn active" data-filter="all" data-i18n="filter_all">Semua Kegiatan</button>
+          <button class="gallery-filter-btn" data-filter="leadership" data-i18n="filter_leadership">Kepemimpinan BEM</button>
+          <button class="gallery-filter-btn" data-filter="events" data-i18n="filter_events">Event & Kepanitiaan</button>
+          <button class="gallery-filter-btn" data-filter="global" data-i18n="filter_global">Forum Internasional</button>
+          <button class="gallery-filter-btn" data-filter="community" data-i18n="filter_community">Sosial & Komunitas</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Item 1: Makrab -->
+          <div class="gallery-card glass-card" data-category="events" data-id="1">
+            <div class="gallery-img-wrapper">
+              <img src="assets/images/gallery-makrab.svg" alt="Malam Keakraban (Makrab) 2024" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <button class="gallery-zoom-btn" aria-label="Perbesar Foto">
+                  <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                  <span data-i18n="btn_view_photo">Lihat Detail</span>
+                </button>
+              </div>
+              <span class="gallery-badge event" data-i18n="badge_event">Event Kampus</span>
+              <span class="gallery-date">28–29 Nov 2024</span>
+            </div>
+            <div class="gallery-content">
+              <span class="gallery-role" data-i18n="makrab_role_card"><i class="fa-solid fa-crown"></i> Ketua Panitia (Project Lead)</span>
+              <h3 class="gallery-item-title" data-i18n="gallery_title_1">Malam Keakraban (Makrab) Mahasiswa 2024</h3>
+              <p class="gallery-excerpt" data-i18n="gallery_desc_1">
+                Memimpin koordinasi terpadu 5 divisi kepanitiaan dalam penyelenggaraan malam keakraban mahasiswa baru Jakarta Business School.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2: Mini Concert & 17 Agustus -->
+          <div class="gallery-card glass-card" data-category="events" data-id="2">
+            <div class="gallery-img-wrapper">
+              <img src="assets/images/gallery-concert.svg" alt="Mini Concert 17 Agustus 2024" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <button class="gallery-zoom-btn" aria-label="Perbesar Foto">
+                  <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                  <span data-i18n="btn_view_photo">Lihat Detail</span>
+                </button>
+              </div>
+              <span class="gallery-badge art" data-i18n="badge_art">Seni & Budaya</span>
+              <span class="gallery-date">Agustus 2024</span>
+            </div>
+            <div class="gallery-content">
+              <span class="gallery-role" data-i18n="concert_role_card"><i class="fa-solid fa-pen-nib"></i> Scriptwriter & Coordinator</span>
+              <h3 class="gallery-item-title" data-i18n="gallery_title_2">Mini Concert & HUT Kemerdekaan RI Ke-79</h3>
+              <p class="gallery-excerpt" data-i18n="gallery_desc_2">
+                Kolaborasi artistik pertunjukan konser akustik bersama musisi lokal Taman Suropati Chamber untuk merayakan kemerdekaan bangsa.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3: Global Student Summit 3.0 -->
+          <div class="gallery-card glass-card" data-category="global" data-id="3">
+            <div class="gallery-img-wrapper">
+              <img src="assets/images/gallery-summit.svg" alt="Global Student Summit 3.0 Malaysia" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <button class="gallery-zoom-btn" aria-label="Perbesar Foto">
+                  <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                  <span data-i18n="btn_view_photo">Lihat Detail</span>
+                </button>
+              </div>
+              <span class="gallery-badge global" data-i18n="badge_global">Internasional</span>
+              <span class="gallery-date">Nov–Des 2024</span>
+            </div>
+            <div class="gallery-content">
+              <span class="gallery-role" data-i18n="summit_role_card"><i class="fa-solid fa-earth-americas"></i> Delegasi Internasional</span>
+              <h3 class="gallery-item-title" data-i18n="gallery_title_3">Global Student Summit 3.0 - Universiti Putra Malaysia</h3>
+              <p class="gallery-excerpt" data-i18n="gallery_desc_3">
+                Mewakili Indonesia dalam dialog kepemimpinan mahasiswa Asia Tenggara mengenai inovasi bisnis digital dan keberlanjutan.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 4: My Digital Academy Bank Mandiri -->
+          <div class="gallery-card glass-card" data-category="leadership" data-id="4">
+            <div class="gallery-img-wrapper">
+              <img src="assets/images/gallery-mandiri.svg" alt="My Digital Academy Bank Mandiri" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <button class="gallery-zoom-btn" aria-label="Perbesar Foto">
+                  <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                  <span data-i18n="btn_view_photo">Lihat Detail</span>
+                </button>
+              </div>
+              <span class="gallery-badge academy" data-i18n="badge_academy">Digital Academy</span>
+              <span class="gallery-date">Februari 2025</span>
+            </div>
+            <div class="gallery-content">
+              <span class="gallery-role" data-i18n="mda_role_card"><i class="fa-solid fa-award"></i> Selected Scholar / Cohort</span>
+              <h3 class="gallery-item-title" data-i18n="gallery_title_4">Thriving in the Digital Age: Mental Health & Growth</h3>
+              <p class="gallery-excerpt" data-i18n="gallery_desc_4">
+                Pelatihan kapabilitas kepemimpinan digital intensif oleh Bank Mandiri untuk penguatan resiliensi karir dan kesiapan profesional.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 5: Pelantikan President Student Union -->
+          <div class="gallery-card glass-card" data-category="leadership" data-id="5">
+            <div class="gallery-img-wrapper">
+              <img src="assets/images/gallery-bem-president.svg" alt="Pelantikan President Student Union JBS" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <button class="gallery-zoom-btn" aria-label="Perbesar Foto">
+                  <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                  <span data-i18n="btn_view_photo">Lihat Detail</span>
+                </button>
+              </div>
+              <span class="gallery-badge lead" data-i18n="badge_lead">Amanah Eksekutif</span>
+              <span class="gallery-date">Mei 2025</span>
+            </div>
+            <div class="gallery-content">
+              <span class="gallery-role" data-i18n="pres_role_card"><i class="fa-solid fa-crown"></i> President of Student Union</span>
+              <h3 class="gallery-item-title" data-i18n="gallery_title_5">Pelantikan & Rapat Kerja BEM Jakarta Business School</h3>
+              <p class="gallery-excerpt" data-i18n="gallery_desc_5">
+                Peresmian amanah ketua badan eksekutif mahasiswa dan perumusan blueprint program kerja strategis sinergi kampus.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 6: Aksi Sosial & Pengabdian Masyarakat -->
+          <div class="gallery-card glass-card" data-category="community" data-id="6">
+            <div class="gallery-img-wrapper">
+              <img src="assets/images/gallery-community.svg" alt="Aksi Sosial dan Komunitas Mahasiswa" class="gallery-img" loading="lazy">
+              <div class="gallery-overlay">
+                <button class="gallery-zoom-btn" aria-label="Perbesar Foto">
+                  <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                  <span data-i18n="btn_view_photo">Lihat Detail</span>
+                </button>
+              </div>
+              <span class="gallery-badge community" data-i18n="badge_community">Sosial Kampus</span>
+              <span class="gallery-date">2024–2025</span>
+            </div>
+            <div class="gallery-content">
+              <span class="gallery-role" data-i18n="comm_role_card"><i class="fa-solid fa-hands-holding-heart"></i> Staff Social & Community</span>
+              <h3 class="gallery-item-title" data-i18n="gallery_title_6">Inisiatif Sosial & Pengabdian Komunitas Mahasiswa</h3>
+              <p class="gallery-excerpt" data-i18n="gallery_desc_6">
+                Menggerakkan partisipasi mahasiswa dalam aksi kepedulian lingkungan dan keakraban sosial civitas akademika JBS.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & CERTIFICATIONS SECTION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="edu_tag">Landasan Akademik</span>
+          <h2 class="section-title" data-i18n="edu_title">Pendidikan & Sertifikasi Profesional</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="edu-grid">
+          <!-- Degree Card -->
+          <div class="edu-card main-degree glass-card">
+            <div class="edu-badge"><i class="fa-solid fa-graduation-cap"></i> <span data-i18n="degree_level">Program Sarjana (S1)</span></div>
+            <h3 class="edu-degree" data-i18n="degree_name">Bachelor's Degree in Business (S1 Bisnis Digital)</h3>
+            <h4 class="edu-institution">Jakarta Business School</h4>
+            <div class="edu-meta">
+              <span><i class="fa-regular fa-calendar"></i> Sep 2023 – Sekarang (Present)</span>
+              <span><i class="fa-solid fa-location-dot"></i> Jakarta, Indonesia</span>
+            </div>
+            <p class="edu-summary" data-i18n="degree_desc">
+              Mempelajari ekosistem bisnis modern, transformasi digital perusahaan, pemasaran berbasis data, manajemen finansial, serta strategi pertumbuhan startup dan korporasi.
+            </p>
+            <div class="edu-highlights">
+              <span class="chip"><i class="fa-solid fa-check"></i> Digital Business Strategy</span>
+              <span class="chip"><i class="fa-solid fa-check"></i> Financial Budgeting</span>
+              <span class="chip"><i class="fa-solid fa-check"></i> Marketing Analytics</span>
+            </div>
+          </div>
+
+          <!-- Certifications & Training List -->
+          <div class="cert-list-wrapper">
+            <h3 class="cert-heading" data-i18n="cert_heading">Kursus & Pengembangan Kompetensi</h3>
+
+            <!-- Cert Item 1 -->
+            <div class="cert-item glass-card">
+              <div class="cert-icon"><i class="fa-solid fa-seedling"></i></div>
+              <div class="cert-info">
+                <h4 class="cert-title">Thriving in the Digital Age : Mental Health and Career Growth</h4>
+                <div class="cert-provider"><i class="fa-solid fa-building"></i> My Digital Academy by Mandiri</div>
+                <div class="cert-date"><i class="fa-regular fa-calendar-check"></i> Februari 2025</div>
+              </div>
+            </div>
+
+            <!-- Cert Item 2 -->
+            <div class="cert-item glass-card">
+              <div class="cert-icon"><i class="fa-solid fa-globe"></i></div>
+              <div class="cert-info">
+                <h4 class="cert-title">Global Student Summit 3.0</h4>
+                <div class="cert-provider"><i class="fa-solid fa-building"></i> Universiti Putra Malaysia (UPM)</div>
+                <div class="cert-date"><i class="fa-regular fa-calendar-check"></i> Nov – Des 2024</div>
+              </div>
+            </div>
+
+            <!-- Cert Item 3 -->
+            <div class="cert-item glass-card">
+              <div class="cert-icon"><i class="fa-solid fa-bullhorn"></i></div>
+              <div class="cert-info">
+                <h4 class="cert-title">Digital Marketing Course</h4>
+                <div class="cert-provider"><i class="fa-solid fa-building"></i> InspiRadzi ACADEMI</div>
+                <div class="cert-date"><i class="fa-regular fa-calendar-check"></i> Jan – Feb 2024</div>
+              </div>
+            </div>
+
+            <!-- Cert Item 4 -->
+            <div class="cert-item glass-card">
+              <div class="cert-icon"><i class="fa-solid fa-spell-check"></i></div>
+              <div class="cert-info">
+                <h4 class="cert-title">English Language Enhancement Course (ELEC)</h4>
+                <div class="cert-provider"><i class="fa-solid fa-building"></i> Professional Language Program</div>
+                <div class="cert-date"><i class="fa-regular fa-calendar-check"></i> Okt – Des 2023</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="skills_tag">Kompetensi Utama</span>
+          <h2 class="section-title" data-i18n="skills_title">Keahlian & Kemahiran Profesional</h2>
+          <p class="section-subtitle" data-i18n="skills_subtitle">
+            Kombinasi keahlian kepemimpinan manajerial, strategi konten digital, kemampuan komunikasi, dan penguasaan perangkat kerja.
+          </p>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Category 1: Leadership & Event -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-users-gear"></i></div>
+              <div>
+                <h3 class="category-title" data-i18n="skill_cat_1">Kepemimpinan & Manajemen Acara</h3>
+                <span class="category-count">Core Competencies</span>
+              </div>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-progress-item">
+                <div class="skill-info-row">
+                  <span class="skill-name">Event Planning & Execution</span>
+                  <span class="skill-percent">95%</span>
+                </div>
+                <div class="progress-bar-bg"><div class="progress-fill" style="width: 95%"></div></div>
+              </div>
+              <div class="skill-progress-item">
+                <div class="skill-info-row">
+                  <span class="skill-name">Team Collaboration & Leadership</span>
+                  <span class="skill-percent">95%</span>
+                </div>
+                <div class="progress-bar-bg"><div class="progress-fill" style="width: 95%"></div></div>
+              </div>
+              <div class="skill-progress-item">
+                <div class="skill-info-row">
+                  <span class="skill-name">Public Speaking & Moderation</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="progress-bar-bg"><div class="progress-fill" style="width: 90%"></div></div>
+              </div>
+              <div class="skill-progress-item">
+                <div class="skill-info-row">
+                  <span class="skill-name">Youth Community Engagement</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="progress-bar-bg"><div class="progress-fill" style="width: 90%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Category 2: Digital Strategy & Content -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon digital"><i class="fa-solid fa-hashtag"></i></div>
+              <div>
+                <h3 class="category-title" data-i18n="skill_cat_2">Strategi Konten & Bisnis Digital</h3>
+                <span class="category-count">Digital & Marketing</span>
+              </div>
+            </div>
+            <div class="skill-items-list">
+              <div class="skill-progress-item">
+                <div class="skill-info-row">
+                  <span class="skill-name">Content Planning & Strategy</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="progress-bar-bg"><div class="progress-fill digital" style="width: 90%"></div></div>
+              </div>
+              <div class="skill-progress-item">
+                <div class="skill-info-row">
+                  <span class="skill-name">Social Media Campaign</span>
+                  <span class="skill-percent">88%</span>
+                </div>
+                <div class="progress-bar-bg"><div class="progress-fill digital" style="width: 88%"></div></div>
+              </div>
+              <div class="skill-progress-item">
+                <div class="skill-info-row">
+                  <span class="skill-name">Creative Scriptwriting</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="progress-bar-bg"><div class="progress-fill digital" style="width: 85%"></div></div>
+              </div>
+              <div class="skill-progress-item">
+                <div class="skill-info-row">
+                  <span class="skill-name">Basic Financial Reporting (Cashflow & Budgeting)</span>
+                  <span class="skill-percent">82%</span>
+                </div>
+                <div class="progress-bar-bg"><div class="progress-fill digital" style="width: 82%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Category 3: Tools & Languages -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon tools"><i class="fa-solid fa-laptop-code"></i></div>
+              <div>
+                <h3 class="category-title" data-i18n="skill_cat_3">Software, Tools & Bahasa</h3>
+                <span class="category-count">Productivity & Communication</span>
+              </div>
+            </div>
+            
+            <div class="tools-grid-box">
+              <div class="tool-badge">
+                <i class="fa-solid fa-palette"></i>
+                <div class="tool-meta">
+                  <span class="tool-name">Canva</span>
+                  <span class="tool-level">Advanced Graphic Design</span>
+                </div>
+              </div>
+              <div class="tool-badge">
+                <i class="fa-solid fa-file-powerpoint"></i>
+                <div class="tool-meta">
+                  <span class="tool-name">PowerPoint</span>
+                  <span class="tool-level">Executive Presentations</span>
+                </div>
+              </div>
+              <div class="tool-badge">
+                <i class="fa-solid fa-file-excel"></i>
+                <div class="tool-meta">
+                  <span class="tool-name">Microsoft Excel</span>
+                  <span class="tool-level">Data & Cashflow Spreadsheets</span>
+                </div>
+              </div>
+              <div class="tool-badge">
+                <i class="fa-solid fa-language"></i>
+                <div class="tool-meta">
+                  <span class="tool-name">Bahasa Inggris</span>
+                  <span class="tool-level">Intermediate (ELEC Certified)</span>
+                </div>
+              </div>
+              <div class="tool-badge">
+                <i class="fa-solid fa-flag"></i>
+                <div class="tool-meta">
+                  <span class="tool-name">Bahasa Indonesia</span>
+                  <span class="tool-level">Native Proficiency</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PDF PREVIEW & DOWNLOAD BANNER -->
+    <section class="section pdf-banner-section">
+      <div class="container">
+        <div class="pdf-banner-card glass-card">
+          <div class="pdf-banner-content">
+            <div class="pdf-banner-icon">
+              <i class="fa-solid fa-file-lines"></i>
+            </div>
+            <div>
+              <h3 class="pdf-banner-title" data-i18n="pdf_banner_title">Butuh Salinan Berkas Resmi CV?</h3>
+              <p class="pdf-banner-text" data-i18n="pdf_banner_desc">
+                Unduh dokumen asli Curriculum Vitae resmi Dina Kumala Ningrum dalam format PDF siap cetak.
+              </p>
+            </div>
+          </div>
+          <div class="pdf-banner-actions">
+            <a href="CV DINA KUMALA.pdf" target="_blank" class="btn btn-secondary">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <span data-i18n="btn_view_pdf">Buka PDF di Tab Baru</span>
+            </a>
+            <a href="CV DINA KUMALA.pdf" download="CV DINA KUMALA.pdf" class="btn btn-primary">
+              <i class="fa-solid fa-download"></i>
+              <span data-i18n="btn_download_now">Unduh PDF Sekarang</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="contact_tag">Mari Berkolaborasi</span>
+          <h2 class="section-title" data-i18n="contact_title">Hubungi Dina Kumala</h2>
+          <p class="section-subtitle" data-i18n="contact_subtitle">
+            Terbuka untuk audiensi kemahasiswaan, kemitraan sponsorship, pembicara seminar/talkshow, dan kolaborasi strategis bisnis digital.
+          </p>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Channels Info -->
+          <div class="contact-cards-col">
+            <!-- Email Card -->
+            <a href="mailto:dinkmlaningrum@gmail.com" class="contact-method-card glass-card">
+              <div class="method-icon email"><i class="fa-solid fa-envelope"></i></div>
+              <div class="method-body">
+                <span class="method-type">Email Resmi</span>
+                <span class="method-val">dinkmlaningrum@gmail.com</span>
+                <span class="method-action" data-i18n="click_to_email">Klik untuk mengirim surel &rarr;</span>
+              </div>
+            </a>
+
+            <!-- WhatsApp Card -->
+            <a href="https://wa.me/6285819303998" target="_blank" rel="noopener noreferrer" class="contact-method-card glass-card">
+              <div class="method-icon whatsapp"><i class="fa-brands fa-whatsapp"></i></div>
+              <div class="method-body">
+                <span class="method-type">WhatsApp / Telepon</span>
+                <span class="method-val">+62-858-1930-3998</span>
+                <span class="method-action" data-i18n="click_to_wa">Klik untuk membuka chat WhatsApp &rarr;</span>
+              </div>
+            </a>
+
+            <!-- Instagram Card -->
+            <a href="https://instagram.com/dinkmla" target="_blank" rel="noopener noreferrer" class="contact-method-card glass-card">
+              <div class="method-icon instagram"><i class="fa-brands fa-instagram"></i></div>
+              <div class="method-body">
+                <span class="method-type">Instagram Pribadi</span>
+                <span class="method-val">@dinkmla</span>
+                <span class="method-action" data-i18n="click_to_ig">Kunjungi profil Instagram &rarr;</span>
+              </div>
+            </a>
+
+            <!-- Campus Card -->
+            <div class="contact-method-card glass-card campus">
+              <div class="method-icon campus"><i class="fa-solid fa-building-columns"></i></div>
+              <div class="method-body">
+                <span class="method-type">Kampus</span>
+                <span class="method-val">Jakarta Business School</span>
+                <span class="method-action">Student Union Secretariat</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-col">
+            <div class="contact-form-card glass-card">
+              <h3 class="form-title" data-i18n="form_title">Kirim Pesan Langsung</h3>
+              <p class="form-desc" data-i18n="form_desc">
+                Silakan isi formulir di bawah ini untuk memulai obrolan, mengundang sebagai pembicara, atau menawarkan inisiatif kerja sama.
+              </p>
+
+              <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                  <label for="senderName" data-i18n="form_name_label">Nama Lengkap / Instansi *</label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" id="senderName" name="senderName" placeholder="Contoh: Budi Santoso / BEM Universitas X" required>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="senderEmail" data-i18n="form_email_label">Alamat Email *</label>
+                    <div class="input-wrapper">
+                      <i class="fa-regular fa-envelope"></i>
+                      <input type="email" id="senderEmail" name="senderEmail" placeholder="nama@domain.com" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="senderPhone" data-i18n="form_phone_label">Nomor WhatsApp</label>
+                    <div class="input-wrapper">
+                      <i class="fa-brands fa-whatsapp"></i>
+                      <input type="tel" id="senderPhone" name="senderPhone" placeholder="+62 812-xxxx-xxxx">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="messageSubject" data-i18n="form_subject_label">Topik Keperluan *</label>
+                  <div class="input-wrapper select-wrapper">
+                    <i class="fa-solid fa-tag"></i>
+                    <select id="messageSubject" name="messageSubject" required>
+                      <option value="Kolaborasi Organisasi Mahasiswa">Kolaborasi Organisasi Mahasiswa / BEM</option>
+                      <option value="Undangan Pembicara / Moderator">Undangan Pembicara / Moderator Seminar</option>
+                      <option value="Sponsorship & Partnership">Sponsorship & Partnership Acara</option>
+                      <option value="Peluang Karir & Magang Bisnis Digital">Peluang Karir & Bisnis Digital</option>
+                      <option value="Aspirasi / Hal Lainnya">Aspirasi / Pertanyaan Lainnya</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="messageText" data-i18n="form_message_label">Pesan Anda *</label>
+                  <div class="input-wrapper">
+                    <textarea id="messageText" name="messageText" rows="4" placeholder="Tuliskan pesan, rincian agenda, atau tawaran kerja sama Anda..." required></textarea>
+                  </div>
+                </div>
+
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-primary btn-block" id="btnSubmitMessage">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span data-i18n="form_submit_btn">Kirim via WhatsApp / Email</span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="brand-logo footer-logo">
+          <div class="logo-badge">DK</div>
+          <div class="brand-info">
+            <span class="brand-name">Dina Kumala Ningrum</span>
+            <span class="brand-sub">Mahasiswa Bisnis Digital • Jakarta Business School</span>
+          </div>
+        </div>
+        <p class="footer-tagline" data-i18n="footer_tagline">
+          "Memberdayakan Mahasiswa, Menggerakkan Dampak Positif, Menginspirasi Perubahan Melalui Inovasi Digital."
+        </p>
+      </div>
+
+      <div class="footer-links-group">
+        <h4 data-i18n="footer_quick_links">Tautan Cepat</h4>
+        <ul>
+          <li><a href="#hero" data-i18n="nav_home">Beranda</a></li>
+          <li><a href="#about" data-i18n="nav_about">Tentang</a></li>
+          <li><a href="#experience" data-i18n="nav_leadership">Kepemimpinan</a></li>
+          <li><a href="#projects" data-i18n="nav_projects">Proyek & Prestasi</a></li>
+          <li><a href="#gallery" data-i18n="nav_gallery">Galeri Kegiatan</a></li>
+          <li><a href="#education" data-i18n="nav_education">Pendidikan</a></li>
+          <li><a href="#skills" data-i18n="nav_skills">Keahlian</a></li>
+          <li><a href="#contact" data-i18n="nav_contact">Kontak</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-doc-group">
+        <h4 data-i18n="footer_doc_title">Dokumen Resmi</h4>
+        <p data-i18n="footer_doc_desc">Akses dan simpan curriculum vitae resmi dalam bentuk file digital.</p>
+        <a href="CV DINA KUMALA.pdf" download="CV DINA KUMALA.pdf" class="btn btn-secondary btn-sm">
+          <i class="fa-solid fa-file-pdf"></i>
+          <span data-i18n="btn_download_cv">Unduh CV (PDF)</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p>&copy; <span id="currentYear">2026</span> Dina Kumala Ningrum. All Rights Reserved. Mahasiswa Bisnis Digital, Jakarta Business School.</p>
+        <a href="#hero" class="back-to-top" id="backToTopBtn" aria-label="Kembali ke atas">
+          <i class="fa-solid fa-chevron-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Gallery Lightbox Modal -->
+  <div id="galleryLightbox" class="lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-dialog">
+      <button class="lightbox-close" id="lightboxCloseBtn" aria-label="Tutup Pratinjau">&times;</button>
+      <div class="lightbox-body">
+        <div class="lightbox-media-box">
+          <img id="lightboxImg" src="" alt="Dokumentasi Kegiatan" class="lightbox-img">
+          <button class="lightbox-nav prev" id="lightboxPrevBtn" aria-label="Foto Sebelumnya">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="lightbox-nav next" id="lightboxNextBtn" aria-label="Foto Selanjutnya">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+        <div class="lightbox-details">
+          <div class="lightbox-header-row">
+            <span class="lightbox-badge" id="lightboxBadge">Kategori</span>
+            <span class="lightbox-date" id="lightboxDate">Tanggal</span>
+          </div>
+          <h3 class="lightbox-title" id="lightboxTitle">Judul Kegiatan</h3>
+          <div class="lightbox-role-box">
+            <i class="fa-solid fa-crown" id="lightboxRoleIcon"></i>
+            <span id="lightboxRole">Peran Kepanitiaan</span>
+          </div>
+          <p class="lightbox-desc" id="lightboxDesc">Deskripsi lengkap mengenai dokumentasi kegiatan...</p>
+          <div class="lightbox-footer">
+            <span class="lightbox-counter" id="lightboxCounter">1 dari 6</span>
+            <button class="btn btn-secondary btn-sm" id="lightboxDownloadBtn" title="Buka Gambar">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <span data-i18n="btn_open_img">Buka Ukuran Penuh</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toastNotification" class="toast" role="alert" aria-live="polite">
+    <i class="fa-solid fa-circle-check toast-icon"></i>
+    <span id="toastMessage">Tindakan berhasil dilakukan!</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

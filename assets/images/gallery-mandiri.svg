@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mandiriBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#002b66"/>
+      <stop offset="60%" stop-color="#003d8f"/>
+      <stop offset="100%" stop-color="#0055b8"/>
+    </linearGradient>
+    <linearGradient id="goldRibbon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#mandiriBlue)"/>
+
+  <!-- Modern FinTech Architecture / Wave lines -->
+  <path d="M0 320 C200 240, 400 380, 800 280 L800 500 L0 500 Z" fill="#00204d" opacity="0.8"/>
+  <path d="M0 370 C240 310, 520 420, 800 350 L800 500 L0 500 Z" fill="#00183b"/>
+
+  <!-- Bank Mandiri Classic Golden Ribbon Wave Silhouette -->
+  <path d="M-50 200 Q200 80 450 180 T850 150" fill="none" stroke="url(#goldRibbon)" stroke-width="12" opacity="0.85"/>
+  <path d="M-50 220 Q200 100 450 200 T850 170" fill="none" stroke="#38bdf8" stroke-width="4" opacity="0.6"/>
+
+  <!-- Digital Mind & Growth Illustration Center -->
+  <g transform="translate(400, 270)">
+    <!-- Tech Portal Ring -->
+    <circle cx="0" cy="0" r="95" fill="#002855" stroke="#38bdf8" stroke-width="3" opacity="0.9"/>
+    <circle cx="0" cy="0" r="75" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+    <!-- Central Brain & Rocket / Growth Icon -->
+    <path d="M-25,-10 C-35,-30 -10,-45 0,-40 C10,-45 35,-30 25,-10 C35,10 15,35 0,38 C-15,35 -35,10 -25,-10 Z" fill="#38bdf8" opacity="0.3"/>
+    
+    <!-- Growth Arrow -->
+    <path d="M-30 20 L-5 -5 L10 10 L35 -25" fill="none" stroke="#fbbf24" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="35,-25 22,-24 33,-12" fill="#fbbf24"/>
+
+    <!-- Floating Badge -->
+    <rect x="-70" y="48" width="140" height="30" rx="15" fill="#001f3f" stroke="#fbbf24" stroke-width="1.5"/>
+    <text x="0" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#ffffff" text-anchor="middle">DIGITAL ACADEMY</text>
+  </g>
+
+  <!-- Left Card: Mental Health & Resilience -->
+  <g transform="translate(100, 250)">
+    <rect x="0" y="0" width="170" height="90" rx="12" fill="#001a35" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="35" cy="45" r="20" fill="#0284c7"/>
+    <text x="35" y="52" font-size="18" text-anchor="middle" fill="#fff">🧠</text>
+    <text x="68" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#38bdf8">RESILIENCE</text>
+    <text x="68" y="55" font-family="'Outfit', sans-serif" font-size="13" font-weight="700" fill="#ffffff">Mental Health</text>
+    <text x="68" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94a3b8">& Well-being</text>
+  </g>
+
+  <!-- Right Card: Career Growth -->
+  <g transform="translate(530, 250)">
+    <rect x="0" y="0" width="170" height="90" rx="12" fill="#001a35" stroke="#fbbf24" stroke-width="1.5"/>
+    <circle cx="35" cy="45" r="20" fill="#d97706"/>
+    <text x="35" y="52" font-size="18" text-anchor="middle" fill="#fff">🚀</text>
+    <text x="68" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#fbbf24">ACCELERATION</text>
+    <text x="68" y="55" font-family="'Outfit', sans-serif" font-size="13" font-weight="700" fill="#ffffff">Career Growth</text>
+    <text x="68" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94a3b8">Future Leader</text>
+  </g>
+
+  <!-- Top Event Title Banner Overlay -->
+  <rect x="40" y="35" width="720" height="75" rx="14" fill="#001a33" fill-opacity="0.92" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="70" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13" fill="#fbbf24" letter-spacing="1.5">MY DIGITAL ACADEMY • BANK MANDIRI</text>
+  <text x="70" y="93" font-family="'Outfit', sans-serif" font-weight="700" font-size="21" fill="#ffffff">Thriving in Digital Age: Mental Health & Career</text>
+  <rect x="630" y="52" width="110" height="36" rx="18" fill="#d97706"/>
+  <text x="685" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#ffffff" text-anchor="middle">Februari 2025</text>
+</svg>

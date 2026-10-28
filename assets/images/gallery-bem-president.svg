@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hallBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="40%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="goldPodium" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#hallBg)"/>
+
+  <!-- Pillars & Hall Architecture -->
+  <rect x="100" y="80" width="45" height="420" fill="#1e293b" opacity="0.6"/>
+  <rect x="655" y="80" width="45" height="420" fill="#1e293b" opacity="0.6"/>
+  <polygon points="0,420 800,420 800,500 0,500" fill="#0f172a"/>
+  <line x1="0" y1="420" x2="800" y2="420" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+
+  <!-- Center Stage Lighting Glow -->
+  <ellipse cx="400" cy="380" rx="220" ry="60" fill="#1e3a8a" opacity="0.5"/>
+  <ellipse cx="400" cy="380" rx="140" ry="35" fill="#f59e0b" opacity="0.2"/>
+
+  <!-- Grand Seal of Student Union / BEM Centerpiece -->
+  <g transform="translate(400, 230)">
+    <!-- Laurel Wreath & Crown Shield -->
+    <circle cx="0" cy="0" r="80" fill="#1e3a8a" stroke="url(#goldPodium)" stroke-width="4"/>
+    <circle cx="0" cy="0" r="68" fill="#0f172a" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+    <!-- Crown Icon -->
+    <path d="M-30,-15 L-15,10 L0,-25 L15,10 L30,-15 L22,25 L-22,25 Z" fill="url(#goldPodium)"/>
+    <circle cx="-30" cy="-18" r="3.5" fill="#fef08a"/>
+    <circle cx="0" cy="-28" r="4.5" fill="#fef08a"/>
+    <circle cx="30" cy="-18" r="3.5" fill="#fef08a"/>
+
+    <text x="0" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="11" fill="#fbbf24" text-anchor="middle" letter-spacing="1">STUDENT UNION</text>
+  </g>
+
+  <!-- Executive Podium -->
+  <polygon points="340,340 460,340 475,440 325,440" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <polygon points="325,335 475,335 460,345 340,345" fill="#334155"/>
+  <line x1="390" y1="315" x2="390" y2="335" stroke="#94a3b8" stroke-width="3"/>
+  <ellipse cx="390" cy="312" rx="5" ry="8" fill="#64748b"/>
+  <rect x="365" y="365" width="70" height="26" rx="4" fill="#0f172a" stroke="#fbbf24" stroke-width="1"/>
+  <text x="400" y="382" font-family="'Outfit', sans-serif" font-weight="700" font-size="10" fill="#ffffff" text-anchor="middle">PRESIDENT</text>
+
+  <!-- Audience / Cabinet Members Silhouette -->
+  <circle cx="210" cy="410" r="14" fill="#1e293b"/>
+  <path d="M190 460 C190 435, 200 425, 210 425 C220 425, 230 435, 230 460 Z" fill="#1e293b"/>
+  <circle cx="260" cy="405" r="15" fill="#334155"/>
+  <path d="M240 460 C240 430, 250 420, 260 420 C270 420, 280 430, 280 460 Z" fill="#334155"/>
+
+  <circle cx="590" cy="410" r="14" fill="#1e293b"/>
+  <path d="M570 460 C570 435, 580 425, 590 425 C600 425, 610 435, 610 460 Z" fill="#1e293b"/>
+  <circle cx="540" cy="405" r="15" fill="#334155"/>
+  <path d="M520 460 C520 430, 530 420, 540 420 C550 420, 560 430, 560 460 Z" fill="#334155"/>
+
+  <!-- Top Event Title Banner Overlay -->
+  <rect x="40" y="35" width="720" height="75" rx="14" fill="#0f172a" fill-opacity="0.9" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="70" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13" fill="#fbbf24" letter-spacing="1.5">AMANAH KEPEMIMPINAN • JAKARTA BUSINESS SCHOOL</text>
+  <text x="70" y="93" font-family="'Outfit', sans-serif" font-weight="700" font-size="21" fill="#ffffff">Pelantikan & Rapat Kerja President Student Union</text>
+  <rect x="630" y="52" width="110" height="36" rx="18" fill="#1e3a8a"/>
+  <text x="685" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#ffffff" text-anchor="middle">Mei 2025</text>
+</svg>
